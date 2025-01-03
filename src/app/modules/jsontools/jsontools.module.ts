@@ -7,6 +7,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { JsonaddDialogComponent } from './components/main/jsonlist/jsonadd-dialog/jsonadd-dialog.component';
 import { JsonminiComponent } from './components/main/jsonmini/jsonmini.component';
 import { JsonfilterComponent } from './components/main/jsonfilter/jsonfilter.component';
+import { JsoncompareComponent } from './components/main/jsoncompare/jsoncompare.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { JsonfilterComponent } from './components/main/jsonfilter/jsonfilter.com
     JsonaddDialogComponent,
     JsonminiComponent,
     JsonfilterComponent,
+    JsoncompareComponent,
   ],
   imports: [SharedModule, ReactiveFormsModule, MatDialogModule, FormsModule],
   exports: [MainComponent],

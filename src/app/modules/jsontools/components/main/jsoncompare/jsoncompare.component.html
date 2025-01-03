@@ -1,0 +1,40 @@
+<div class="grid">
+  <div class="list">
+    <div class="btnf">
+      <button mat-raised-button color="primary" class="button-add" (click)="compare()">Compare JSON</button>
+    </div>
+    <div class="pleft">
+      <mat-form-field>
+        <mat-label>Select JSON 1</mat-label>
+        <mat-select [formControl]="nameControl1">
+          <mat-option [value]="">
+            --select JSON--
+          </mat-option>
+          <mat-option *ngFor="let json of JSONsList" [value]="json">
+            {{json}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div class="pright">
+      <mat-form-field>
+        <mat-label>Select JSON 2</mat-label>
+        <mat-select [formControl]="nameControl2">
+          <mat-option [value]="">
+            --select JSON--
+          </mat-option>
+          <mat-option *ngFor="let json of JSONsList" [value]="json">
+            {{json}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+
+
+
+  </div>
+  <div class="form">
+    <div class="code"><app-jsoncodemirror [JSONContent]="jsonData1" [JSONLinesAdd]="JSONLinesAdd" [JSONLinesDif]="JSONLinesDif"></app-jsoncodemirror></div>
+    <div class="code"><app-jsoncodemirror [JSONContent]="jsonData2" [JSONLinesAdd]="JSONLinesAdd" [JSONLinesDif]="JSONLinesDif"></app-jsoncodemirror></div>
+  </div>
+</div>
