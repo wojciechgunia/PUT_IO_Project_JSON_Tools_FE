@@ -1,0 +1,21 @@
+.grid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  .list {
+    width: 29%;
+    .button-add
+    {
+      width: 80%;
+      margin: 10px 10%;
+    }
+    mat-form-field
+    {
+      width: 90%;
+      margin: 10px 5%;
+    }
+  }
+  .form {
+    width: 68%;
+  }
+}

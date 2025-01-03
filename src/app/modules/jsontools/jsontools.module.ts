@@ -5,9 +5,15 @@ import { JsonlistComponent } from './components/main/jsonlist/jsonlist.component
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatDialogModule } from '@angular/material/dialog';
 import { JsonaddDialogComponent } from './components/main/jsonlist/jsonadd-dialog/jsonadd-dialog.component';
+import { JsonminiComponent } from './components/main/jsonmini/jsonmini.component';
 
 @NgModule({
-  declarations: [MainComponent, JsonlistComponent, JsonaddDialogComponent],
+  declarations: [
+    MainComponent,
+    JsonlistComponent,
+    JsonaddDialogComponent,
+    JsonminiComponent,
+  ],
   imports: [SharedModule, ReactiveFormsModule, MatDialogModule, FormsModule],
   exports: [MainComponent],
 })
