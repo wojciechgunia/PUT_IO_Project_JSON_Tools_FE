@@ -1,0 +1,8 @@
+<div class="json-viewer">
+  <ngx-codemirror
+    [options]="editorOptions"
+    [(ngModel)]="JSONContent"
+    (ngModelChange)="onContentChange($event)"
+  ></ngx-codemirror>
+  <button mat-icon-button color="primary" *ngIf="!JSONEdit" (click)="copyCode()" class="btn-copy"><mat-icon>content_copy</mat-icon></button>
+</div>

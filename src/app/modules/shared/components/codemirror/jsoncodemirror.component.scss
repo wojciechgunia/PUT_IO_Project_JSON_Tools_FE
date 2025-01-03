@@ -1,0 +1,31 @@
+.json-viewer {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: auto;
+  position: relative;
+}
+
+.CodeMirror {
+  height: auto;
+  min-height: 300px;
+  max-height: 80vh;
+}
+
+.highlight-orange {
+  background-color: orange !important;
+}
+
+.highlight-yellow {
+  background-color: yellow !important;
+}
+
+ngx-codemirror{
+  height: auto;
+}
+
+.btn-copy
+{
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}

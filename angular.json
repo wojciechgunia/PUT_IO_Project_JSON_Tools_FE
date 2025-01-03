@@ -32,9 +32,15 @@
             "styles": [
               "@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.scss",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/codemirror/lib/codemirror.css",
+              "node_modules/codemirror/theme/material.css"
             ],
-            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.min.js"]
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/codemirror/lib/codemirror.js",
+              "node_modules/codemirror/mode/javascript/javascript.js"
+            ]
           },
           "configurations": {
             "production": {
