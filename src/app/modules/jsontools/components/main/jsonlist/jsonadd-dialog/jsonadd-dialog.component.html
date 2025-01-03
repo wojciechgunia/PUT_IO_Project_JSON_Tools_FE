@@ -1,0 +1,12 @@
+<h2>Add JSON</h2>
+<mat-dialog-content>
+  <mat-form-field>
+    <mat-label>JSON name</mat-label>
+    <input matInput [formControl]="nameControl" />
+  </mat-form-field>
+  <app-jsoncodemirror [JSONEdit]='true' [JSONContent]="''" (JSONContentOut)="changeJson($event)" ></app-jsoncodemirror>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="onClick()">Cancel</button>
+  <button mat-button (click)="addJson()">Add</button>
+</mat-dialog-actions>

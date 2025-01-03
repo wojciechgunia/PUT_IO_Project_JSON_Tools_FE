@@ -4,7 +4,7 @@
       <mat-selection-list [formControl]="JSONControl" [multiple]="false" color="primary" (selectionChange)="onSelectChange()">
           <mat-list-option [value]="JSON" *ngFor="let JSON of JSONsList">{{JSON}}</mat-list-option>
       </mat-selection-list>
-      <button mat-raised-button color="primary" class="button-add">Add JSON</button>
+      <button mat-raised-button color="primary" class="button-add" (click)="openDialog()">Add JSON</button>
     </form>
   </div>
   <div class="form">
