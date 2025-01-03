@@ -8,7 +8,7 @@ describe('JsonfilterComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [JsonfilterComponent]
+      declarations: [JsonfilterComponent],
     });
     fixture = TestBed.createComponent(JsonfilterComponent);
     component = fixture.componentInstance;
