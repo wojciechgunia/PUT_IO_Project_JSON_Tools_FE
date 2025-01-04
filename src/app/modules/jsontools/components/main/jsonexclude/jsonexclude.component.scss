@@ -1,0 +1,44 @@
+.grid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  .list {
+    width: 29%;
+    .button-add
+    {
+      width: 80%;
+      margin: 0 10%;
+    }
+    mat-form-field
+    {
+      width: 90%;
+      margin: 0 5%;
+    }
+  }
+  .form {
+    width: 68%;
+  }
+}
+
+mat-list{
+  width: 100%;
+}
+
+mat-list-item
+{
+  margin-left: 5%;
+  width: 90%;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-bottom: 1px;
+}
+
+.list-element
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}

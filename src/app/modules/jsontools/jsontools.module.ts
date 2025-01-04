@@ -9,6 +9,7 @@ import { JsonminiComponent } from './components/main/jsonmini/jsonmini.component
 import { JsonfilterComponent } from './components/main/jsonfilter/jsonfilter.component';
 import { JsonmaxiComponent } from './components/main/jsonmaxi/jsonmaxi.component';
 import { JsoncompareComponent } from './components/main/jsoncompare/jsoncompare.component';
+import { JsonexcludeComponent } from './components/main/jsonexclude/jsonexclude.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { JsoncompareComponent } from './components/main/jsoncompare/jsoncompare.
     JsonminiComponent,
     JsonfilterComponent,
     JsoncompareComponent,
-    JsonmaxiComponent
+    JsonmaxiComponent,
+    JsonexcludeComponent
   ],
   imports: [SharedModule, ReactiveFormsModule, MatDialogModule, FormsModule],
   exports: [MainComponent],
