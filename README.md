@@ -12,7 +12,6 @@
 1. [Opis](#l1)
 2. [Instalacja](#l2)
 3. [Zrzuty ekranu](#l3)
-4. [Struktura projektu](#l4)
 
 <a id="l1"></a>
 ## Opis
