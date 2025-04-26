@@ -2,10 +2,7 @@
 
 ### Autorzy wykonanego projektu:
 <img src="https://skillicons.dev/icons?i=github" height="25" alt="github logo"/> [Wojciech Gunia](https://github.com/wojciechgunia)<br>
-<img src="https://skillicons.dev/icons?i=github" height="25" alt="github logo"/> [Remigiusz Janicki](https://github.com/TheRemekk)<br>
-<img src="https://skillicons.dev/icons?i=github" height="25" alt="github logo"/> [Filip Kempa](https://github.com/Pilif102)<br>
-<img src="https://skillicons.dev/icons?i=github" height="25" alt="github logo"/> [Paweł Kołaciński](https://github.com/KolacinskiP)
-
+<img src="https://skillicons.dev/icons?i=github" height="25" alt="github logo"/> [Remigiusz Janicki](https://github.com/TheRemekk)
 ## Spis treści
 
 1. [Opis](#l1)
