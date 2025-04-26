@@ -2,7 +2,7 @@
 
 # JSON Tools - Frontend
 
-### Api Angular: [JSON Tools BE](https://github.com/wojciechgunia/PUT_IO_Project_JSON_Tools)
+### API Angular: [JSON Tools BE](https://github.com/wojciechgunia/PUT_IO_Project_JSON_Tools)
 
 ### Autorzy wykonanego projektu:
 <img src="https://skillicons.dev/icons?i=github" height="25" alt="github logo"/> [Wojciech Gunia](https://github.com/wojciechgunia)<br>
