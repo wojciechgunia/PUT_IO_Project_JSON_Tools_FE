@@ -1,4 +1,4 @@
-# JSON Tools
+# JSON Tools - Frontend
 
 ### Autorzy wykonanego projektu:
 <img src="https://skillicons.dev/icons?i=github" height="25" alt="github logo"/> [Wojciech Gunia](https://github.com/wojciechgunia)<br>
@@ -50,9 +50,27 @@ Domyślny port na którym działa aplikacja to 4200.
 <a id="l3"></a>
 ## Zrzuty ekranu
 
-...
+<details>
+  <summary>Formularz dodawania JSON'a ➕</summary>
+  <img src="screenshots/JSON Tools s1.PNG" alt="Formularz dodawania JSON"/>
+</details>
 
-<a id="l4"></a>
-## Struktura projektu
+<details>
+  <summary>Ekran startowy 🚩</summary>
+  <img src="screenshots/JSON Tools s2.PNG" alt="Ekran startowy"/>
+</details>
 
-...
+<details>
+  <summary>Ekran minimalizacji struktury JSON 🧬</summary>
+  <img src="screenshots/JSON Tools s3.PNG" alt="Ekran minimalizacji struktury JSON"/>
+</details>
+
+<details>
+  <summary>Ekran filtrowania struktury JSON 🗑</summary>
+  <img src="screenshots/JSON Tools s4.PNG" alt="Ekran filtrowania struktury JSON"/>
+</details>
+
+<details>
+  <summary>Ekran porównywarki struktur JSON 🎎</summary>
+  <img src="screenshots/JSON Tools s5.PNG" alt="Ekran porownywarki struktur JSON"/>
+</details>
