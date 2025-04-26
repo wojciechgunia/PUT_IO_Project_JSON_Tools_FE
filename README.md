@@ -1,4 +1,4 @@
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/wojciechgunia/PUT_IO_Project_JSON_Tools_FE/README-en.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/wojciechgunia/PUT_IO_Project_JSON_Tools_FE/blob/main/README-en.md)
 
 # JSON Tools - Frontend
 
