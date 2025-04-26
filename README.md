@@ -1,4 +1,8 @@
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/wojciechgunia/PUT_IO_Project_JSON_Tools_FE/README-en.md)
+
 # JSON Tools - Frontend
+
+### GUI Angular: [JSON Tools BE](https://github.com/wojciechgunia/PUT_IO_Project_JSON_Tools)
 
 ### Autorzy wykonanego projektu:
 <img src="https://skillicons.dev/icons?i=github" height="25" alt="github logo"/> [Wojciech Gunia](https://github.com/wojciechgunia)<br>
